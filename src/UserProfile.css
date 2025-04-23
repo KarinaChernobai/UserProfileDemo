@@ -8,7 +8,7 @@
     font-family: Arial, sans-serif;
 }
 
-.user-profile__avatar {
+.user-profile-avatar {
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -16,7 +16,7 @@
     border: 3px solid #f0f0f0;
 }
 
-.user-profile__profession {
+.user-profile-profession {
     color: #666;
     font-weight: bold;
 }

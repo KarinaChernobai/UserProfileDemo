@@ -3,7 +3,7 @@ import { UserProfile } from "./UserProfile";
 function App() {
     return (
         <div>
-            <h1 style={{ textAlign: "center" }}>Профіль користувача</h1>
+            <h1>Профіль користувача</h1>
             <UserProfile
                 name="Іван Петренко"
                 profession="Frontend Developer"
