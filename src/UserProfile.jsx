@@ -1,31 +1,17 @@
-// src/UserProfile.jsx
 import React from "react";
+import "./UserProfile.css"; // Import the CSS file
 
 export const UserProfile = ({ name, profession, bio, avatar }) => {
     return (
-        <div style={{
-            maxWidth: "400px",
-            margin: "20px auto",
-            padding: "20px",
-            borderRadius: "10px",
-            boxShadow: "0 2px 4px rgba(0,0,0,0.1)",
-            textAlign: "center",
-            fontFamily: "Arial, sans-serif"
-        }}>
+        <div className="user-profile">
             <img
                 src={avatar}
                 alt={`${name}'s avatar`}
-                style={{
-                    width: "150px",
-                    height: "150px",
-                    borderRadius: "50%",
-                    objectFit: "cover",
-                    border: "3px solid #f0f0f0"
-                }}
+                className="user-profile__avatar"
             />
             <h2>{name}</h2>
-            <p style={{ color: "#666", fontWeight: "bold" }}>{profession}</p>
-            <p style={{ color: "#555", lineHeight: "1.5" }}>{bio}</p>
+            <p className="user-profile__profession">{profession}</p>
+            <p className="user-profile__bio">{bio}</p>
         </div>
     );
 };

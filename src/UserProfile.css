@@ -1,0 +1,27 @@
+.user-profile {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.user-profile__avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #f0f0f0;
+}
+
+.user-profile__profession {
+    color: #666;
+    font-weight: bold;
+}
+
+.user-profile__bio {
+    color: #555;
+    line-height: 1.5;
+}
